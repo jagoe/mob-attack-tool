@@ -1,6 +1,5 @@
 import { moduleName } from "./mobAttack.js";
 
-
 const matSettings = {
 	"playerAccess": {
 		name: "SETTINGS.MAT.playerAccess",
@@ -106,8 +105,8 @@ const matSettings = {
 	"askRollType": {
 		name: "SETTINGS.MAT.askRollType",
 		hint: "SETTINGS.MAT.askRollTypeHint",
-		config: false,
 		scope: "client",
+		config: false,
 		type: Boolean
 	},
 	"rollTypeValue": {
@@ -181,7 +180,7 @@ const matSettings = {
 		scope: "client",
 		config: false,
 		default: false,
-		type: Boolean 
+		type: Boolean
 	},
 	"showMobAttackResultsToPlayers": {
 		name: "SETTINGS.MAT.showMobAttackResultsToPlayers",
@@ -189,7 +188,7 @@ const matSettings = {
 		scope: "client",
 		config: false,
 		default: false,
-		type: Boolean 
+		type: Boolean
 	},
 	"currentDialogId": {
 		name: "currentDialogId",
