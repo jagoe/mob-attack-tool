@@ -107,6 +107,7 @@ const matSettings = {
 		hint: "SETTINGS.MAT.askRollTypeHint",
 		scope: "client",
 		config: false,
+		default: false,
 		type: Boolean
 	},
 	"rollTypeValue": {
